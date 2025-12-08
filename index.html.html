@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Characters Determination of Spike - Volleyball Battle - Spite</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">Characters Determination of Spike - Volleyball Battle</h1>
+    <div style="position: fixed; top: 12px; right: 12px; z-index: 999; display: flex; gap: 8px; align-items: center;">
+      <div id="google_translate_element" style="display: inline-block;"></div>
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="characters.html" class="nav-chars">Characters</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2 data-i18n="roster-h2">Character Roster</h2>
+      <p data-i18n="roster-p">This page lists playable and notable characters. Each entry includes ability determination (how the ability works and scales) and a short history.</p>
+      <label style="display:inline-flex;align-items:center;gap:8px;margin:6px 0;">
+        <input id="filter-s" type="checkbox">
+        <span data-i18n="filter-label">Show only <strong>S+</strong> characters</span>
+      </label>
+    </section>
+
+    <section class="roles-section" aria-label="Character roles">
+      <h3 style="margin-top:12px;">Character Roles</h3>
+        <div id="role-buttons" style="margin:8px 0 12px 0; display:flex; gap:8px; flex-wrap:wrap;"></div>
+    </section>
+
+    <section class="character-grid">
+      <article class="card" data-rank="S+">
+        <span class="rank-badge">S+</span>
+        <h3 data-i18n="lucas-name">Lucas — Power Spiker</h3>
+        <p class="role" data-i18n="lucas-role">Role: Primary Spiker</p>
+        <h4 data-i18n="lucas-ab-title">Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Groundbreaker</strong> — <span data-i18n="lucas-ab1">A heavy spike with knockback effect.</span></li>
+          <li><strong>Rally Sprint</strong> — <span data-i18n="lucas-ab2">Quick reposition dash to curve tackles.</span></li>
+        </ul>
+        <h4 data-i18n="lucas-det-title">Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(255,215,0,0.5), rgba(255,200,0,0.3)), url('https://i.pinimg.com/736x/fb/05/73/fb0573f0fd2dd9f7b3abe535df8942cf.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.05rem;" data-i18n="lucas-det-text">Power: 95 | Accuracy: 72 | Cooldown: 6s</p>
+            <p style="margin: 6px 0 0 0; font-size: 0.9rem;" data-i18n="lucas-det-desc">Groundbreaker scales with stamina and deals bonus to stunned opponents.</p>
+          </div>
+        </div>
+        <h4 data-i18n="lucas-hist-title">History</h4>
+        <p data-i18n="lucas-hist">Lucas is known for his raw power and never-give-up attitude. He trained on concrete courts and perfected a bone-jarring spike.</p>
+      </article>
+
+      <article class="card" data-rank="S">
+        <span class="rank-badge">S</span>
+        <h3 data-i18n="isabel-name">Isabel — Agile Setter</h3>
+        <p class="role" data-i18n="isabel-role">Role: Support / Setter</p>
+        <h4>Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Feather Set</strong> — <span data-i18n="isabel-ab1">Guarantees high-precision assist to teammate.</span></li>
+          <li><strong>Hush Zone</strong> — <span data-i18n="isabel-ab2">Briefly reduces opponent's reaction speed in area.</span></li>
+        </ul>
+        <h4>Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(0,120,255,0.5), rgba(0,80,200,0.3)), url('https://i.pinimg.com/736x/62/99/6a/62996aece89e371ec5f9c55a159a3095.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.05rem;" data-i18n="isabel-det-text">Support Power: 78 | Cooldown: 7s</p>
+            <p style="margin: 6px 0 0 0; font-size: 0.9rem;" data-i18n="isabel-det-desc">Feather Set increases ally accuracy by +25 for the next hit.</p>
+          </div>
+        </div>
+        <h4>History</h4>
+        <p data-i18n="isabel-hist">Isabel rose from local leagues with an uncanny sense for ball placement. Her calm composure makes her a strategic centerpiece.</p>
+      </article>
+
+      <article class="card" data-rank="S+">
+        <span class="rank-badge">S+</span>
+        <h3 data-i18n="nishikava-name">Nishikava — Technical Defender</h3>
+        <p class="role" data-i18n="nishikava-role">Role: Defensive Specialist</p>
+        <h4>Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Wall Stance</strong> — <span data-i18n="nishikava-ab1">Temporarily boosts block strength and timing window.</span></li>
+          <li><strong>Arc Recovery</strong> — <span data-i18n="nishikava-ab2">Improved reach for dives and saves.</span></li>
+        </ul>
+        <h4>Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(255,235,59,0.5), rgba(255,193,7,0.3)), url('https://i.pinimg.com/736x/f9/9c/8f/f99c8f74ce19f4830c3064a747f143fe.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.05rem;" data-i18n="nishikava-det-text">Defense Rating: 93</p>
+            <p style="margin: 6px 0 0 0; font-size: 0.9rem;" data-i18n="nishikava-det-desc">Wall Stance reduces incoming spike power when timed correctly.</p>
+          </div>
+        </div>
+        <h4>History</h4>
+        <p data-i18n="nishikava-hist">Nishikava studied classic defensive techniques and integrated biomechanics to become one of the most reliable walls on the circuit.</p>
+      </article>
+
+      <article class="card" data-rank="S">
+        <span class="rank-badge">S</span>
+        <h3 data-i18n="sohee-name">Sohee — Versatile Duelist</h3>
+        <p class="role" data-i18n="sohee-role">Role: All-rounder</p>
+        <h4>Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Mirror Strike</strong> — <span data-i18n="sohee-ab1">Copies some properties of the last opponent play.</span></li>
+          <li><strong>Phase Step</strong> — <span data-i18n="sohee-ab2">Evasive move that confuses AI-targeting briefly.</span></li>
+        </ul>
+        <h4>Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(255,127,80,0.5), rgba(255,140,0,0.3)), url('https://i.pinimg.com/736x/fb/3e/74/fb3e74dbc03826989423fd6d4ac126c7.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.05rem;" data-i18n="sohee-det-text">Versatility: High | Cooldown: 5-8s</p>
+            <p style="margin: 6px 0 0 0; font-size: 0.9rem;" data-i18n="sohee-det-desc">Mirror Strike effectiveness scales with opponent's move strength.</p>
+          </div>
+        </div>
+        <h4>History</h4>
+        <p data-i18n="sohee-hist">Sohee is a cunning competitor who adapts mid-match, using opponent tendencies against them. She excels in clutch situations.</p>
+      </article>
+
+      <article class="card" data-rank="S+">
+        <span class="rank-badge">S+</span>
+        <h3 data-i18n="raul-name">Raul — Explosive Striker</h3>
+        <p class="role" data-i18n="raul-role">Role: Offensive Specialist</p>
+        <h4>Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Thunderbolt Spike</strong> — <span data-i18n="raul-ab1">Powerful explosive spike with massive damage potential.</span></li>
+          <li><strong>Momentum Charge</strong> — <span data-i18n="raul-ab2">Builds energy for devastating attacks.</span></li>
+        </ul>
+        <h4>Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(75,0,130,0.5), rgba(106,90,205,0.3)), url('https://i.pinimg.com/736x/c3/d0/b5/c3d0b51606330e59455f5265f7666a17.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.05rem;" data-i18n="raul-det-text">Power: 97 | Speed: 82 | Cooldown: 6s</p>
+            <p style="margin: 6px 0 0 0; font-size: 0.9rem;" data-i18n="raul-det-desc">Thunderbolt Spike deals massive damage when fully charged.</p>
+          </div>
+        </div>
+        <h4>History</h4>
+        <p data-i18n="raul-hist">Raul is an explosive force on the court, known for his devastating attacks. He dominates opponents with raw offensive power.</p>
+      </article>
+
+      <article class="card" data-rank="S">
+        <span class="rank-badge">S</span>
+        <h3 data-i18n="oasis-name">Oasis — Defensive Guardian</h3>
+        <p class="role" data-i18n="oasis-role">Role: Defensive Specialist</p>
+        <h4>Abilities</h4>
+        <ul class="abilities">
+          <li><strong>Shield Barrier</strong> — <span data-i18n="oasis-ab1">Creates protective barrier against incoming attacks.</span></li>
+          <li><strong>Perfect Recovery</strong> — <span data-i18n="oasis-ab2">Recovers from challenging defensive situations.</span></li>
+        </ul>
+        <h4>Ability determination</h4>
+        <div style="background-image: linear-gradient(135deg, rgba(139,69,19,0.5), rgba(160,82,45,0.3)), url('https://i.pinimg.com/736x/af/67/cc/af67cc4c23992cbd13544b48cfeb5044.jpg'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 12px;">
+          <div style="background: rgba(0,0,0,0.7); padding: 14px 18px; border-radius: 8px; color: #fff; text-align: center;">
+            <p><strong data-i18n="oasis-det-text">Defense: 95 | Recovery: 88 | Cooldown: 7s</strong></p>
+            <p style="font-size: 0.9rem;" data-i18n="oasis-det-desc">Shield Barrier provides consistent defensive coverage.</p>
+          </div>
+        </div>
+        <h4>History</h4>
+        <p data-i18n="oasis-hist">Oasis is a reliable defensive player who keeps the team protected. Her calm demeanor makes her an essential anchor on the court.</p>
+      </article>
+    </section>
+
+    <section>
+      <h3 data-i18n="contribute-h3">How to contribute</h3>
+      <p data-i18n="contribute-p">Want to add or edit a character? Update the HTML or send content to the site maintainer. Use the same structure: name, role, abilities, ability determination, and history.</p>
+    </section>
+  </main>
+
+  <footer class="bugs">
+    <p>© 2025 Made by Uushu</p>
+  </footer>
+
+  <!-- Determination side panel will be created dynamically when a card is tapped -->
+
+  <script>
+    // Language translations
+    const translations = {
+      en: {
+        'page-title': 'Characters — Spite',
+        'roster-h2': 'Character Roster',
+        'roster-p': 'This page lists playable and notable characters. Each entry includes ability determination (how the ability works and scales) and a short history.',
+        'filter-label': 'Show only S+ characters',
+        'contribute-h3': 'How to contribute',
+        'contribute-p': 'Want to add or edit a character? Update the HTML or send content to the site maintainer. Use the same structure: name, role, abilities, ability determination, and history.',
+        'nav-home': 'Home',
+        'nav-about': 'About',
+        'nav-chars': 'Characters',
+        'lucas-name': 'Lucas — Power Spiker',
+        'lucas-role': 'Role: Primary Spiker',
+        'lucas-ab-title': 'Abilities',
+        'lucas-ab1': 'Groundbreaker — A heavy spike with knockback effect.',
+        'lucas-ab2': 'Rally Sprint — Quick reposition dash to curve tackles.',
+        'lucas-det-title': 'Ability determination',
+        'lucas-det-text': 'Power: 95 | Accuracy: 72 | Cooldown: 6s',
+        'lucas-det-desc': 'Groundbreaker scales with stamina and deals bonus to stunned opponents.',
+        'lucas-hist-title': 'History',
+        'lucas-hist': 'Lucas is known for his raw power and never-give-up attitude. He trained on concrete courts and perfected a bone-jarring spike.',
+        'isabel-name': 'Isabel — Agile Setter',
+        'isabel-role': 'Role: Support / Setter',
+        'isabel-ab1': 'Feather Set — Guarantees high-precision assist to teammate.',
+        'isabel-ab2': 'Hush Zone — Briefly reduces opponent\'s reaction speed in area.',
+        'isabel-det-text': 'Support Power: 78 | Cooldown: 7s',
+        'isabel-det-desc': 'Feather Set increases ally accuracy by +25 for the next hit.',
+        'isabel-hist': 'Isabel rose from local leagues with an uncanny sense for ball placement. Her calm composure makes her a strategic centerpiece.',
+        'nishikava-name': 'Nishikava — Technical Defender',
+        'nishikava-role': 'Role: Defensive Specialist',
+        'nishikava-ab1': 'Wall Stance — Temporarily boosts block strength and timing window.',
+        'nishikava-ab2': 'Arc Recovery — Improved reach for dives and saves.',
+        'nishikava-det-text': 'Defense Rating: 93',
+        'nishikava-det-desc': 'Wall Stance reduces incoming spike power when timed correctly.',
+        'nishikava-hist': 'Nishikava studied classic defensive techniques and integrated biomechanics to become one of the most reliable walls on the circuit.',
+        'sohee-name': 'Sohee — Versatile Duelist',
+        'sohee-role': 'Role: All-rounder',
+        'sohee-ab1': 'Mirror Strike — Copies some properties of the last opponent play.',
+        'sohee-ab2': 'Phase Step — Evasive move that confuses AI-targeting briefly.',
+        'sohee-det-text': 'Versatility: High | Cooldown: 5-8s',
+        'sohee-det-desc': 'Mirror Strike effectiveness scales with opponent\'s move strength.',
+        'sohee-hist': 'Sohee is a cunning competitor who adapts mid-match, using opponent tendencies against them. She excels in clutch situations.',
+        'raul-name': 'Raul — Explosive Striker',
+        'raul-role': 'Role: Offensive Specialist',
+        'raul-ab1': 'Thunderbolt Spike — Powerful explosive spike with massive damage potential.',
+        'raul-ab2': 'Momentum Charge — Builds energy for devastating attacks.',
+        'raul-det-text': 'Power: 97 | Speed: 82 | Cooldown: 6s',
+        'raul-det-desc': 'Thunderbolt Spike deals massive damage when fully charged.',
+        'raul-hist': 'Raul is an explosive force on the court, known for his devastating attacks. He dominates opponents with raw offensive power.',
+        'oasis-name': 'Oasis — Defensive Guardian',
+        'oasis-role': 'Role: Defensive Specialist',
+        'oasis-ab1': 'Shield Barrier — Creates protective barrier against incoming attacks.',
+        'oasis-ab2': 'Perfect Recovery — Recovers from challenging defensive situations.',
+        'oasis-det-text': 'Defense: 95 | Recovery: 88 | Cooldown: 7s',
+        'oasis-det-desc': 'Shield Barrier provides consistent defensive coverage.',
+        'oasis-hist': 'Oasis is a reliable defensive player who keeps the team protected. Her calm demeanor makes her an essential anchor on the court.',
+      }
+    };
+
+    // Set up language buttons
+    const langEn = document.getElementById('lang-en');
+    const langMn = document.getElementById('lang-mn');
+    let currentLang = 'en';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      document.documentElement.lang = lang;
+      
+        // Update button states (only if language buttons exist)
+        if(langEn && langMn) {
+          if(lang === 'en') {
+            langEn.style.background = '#ffcf33';
+            langEn.style.color = '#000';
+            langMn.style.background = 'rgba(255,255,255,0.2)';
+            langMn.style.color = '#fff';
+          } else {
+            langEn.style.background = 'rgba(255,255,255,0.2)';
+            langEn.style.color = '#fff';
+            langMn.style.background = '#ffcf33';
+            langMn.style.color = '#000';
+          }
+        }
+      
+      // Update text content
+      Object.keys(translations[lang]).forEach(key => {
+        const elem = document.querySelector(`[data-i18n="${key}"]`);
+        if(elem) elem.textContent = translations[lang][key];
+      });
+    }
+
+    if(langEn) langEn.addEventListener('click', () => setLanguage('en'));
+    if(langMn) langMn.addEventListener('click', () => setLanguage('mn'));
+
+    // Initialize
+    setLanguage('en');
+    
+      // Role buttons + combined filtering (role + S+)
+      (function initRoleFiltering(){
+        const grid = document.querySelector('.character-grid');
+        if(!grid) return;
+        const cards = Array.from(grid.querySelectorAll('.card'));
+        const roleButtonsContainer = document.getElementById('role-buttons');
+        if(!roleButtonsContainer) return;
+
+        // Extract roles from card .role text (strip leading 'Role:' if present)
+        const roles = Array.from(new Set(cards.map(c => {
+          const rEl = c.querySelector('.role');
+          if(!rEl) return 'Unknown';
+          return rEl.textContent.replace(/^\s*Role:\s*/i, '').trim();
+        })));
+
+        // Helper: apply filters (role + sPlus)
+        let activeRole = null; // null = all
+        const checkbox = document.getElementById('filter-s');
+        function applyFilters(){
+          const sPlusOnly = checkbox && checkbox.checked;
+          cards.forEach(card => {
+            const rank = (card.getAttribute('data-rank')||'').toUpperCase();
+            const roleText = (card.querySelector('.role') && card.querySelector('.role').textContent.replace(/^\s*Role:\s*/i, '').trim()) || '';
+            let show = true;
+            if(activeRole && activeRole !== 'All'){
+              show = roleText.toLowerCase() === activeRole.toLowerCase();
+            }
+            if(sPlusOnly){
+              show = show && (rank === 'S+' );
+            }
+            card.style.display = show ? 'block' : 'none';
+          });
+        }
+
+        // Create 'All' button
+        function makeButton(label){
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.textContent = label;
+          btn.style.cssText = 'padding:6px 10px; border-radius:6px; border:1px solid rgba(0,0,0,0.08); background:#fff; cursor:pointer;';
+          return btn;
+        }
+
+        const allBtn = makeButton('All');
+        allBtn.addEventListener('click', ()=>{
+          activeRole = 'All';
+          // mark active
+          Array.from(roleButtonsContainer.children).forEach(b => b.style.boxShadow = '');
+          allBtn.style.boxShadow = 'inset 0 0 0 2px #ffcf33';
+          applyFilters();
+        });
+        roleButtonsContainer.appendChild(allBtn);
+
+        roles.forEach(r => {
+          const b = makeButton(r);
+          b.addEventListener('click', ()=>{
+            activeRole = r;
+            Array.from(roleButtonsContainer.children).forEach(btn => btn.style.boxShadow = '');
+            b.style.boxShadow = 'inset 0 0 0 2px #ffcf33';
+            applyFilters();
+          });
+          roleButtonsContainer.appendChild(b);
+        });
+
+        // default select All
+        allBtn.style.boxShadow = 'inset 0 0 0 2px #ffcf33';
+        activeRole = 'All';
+
+        // Wire checkbox to reapply filters
+        if(checkbox) checkbox.addEventListener('change', applyFilters);
+
+        // expose applyFilters for other code paths
+        applyFilters();
+      })();
+
+    // Ensure S+ characters are shown first in the list
+    (function sortCardsByRank(){
+      const grid = document.querySelector('.character-grid');
+      if(!grid) return;
+      const cards = Array.from(grid.querySelectorAll('.card'));
+      const rankOrder = { 'S+': 0, 'S': 1 };
+      cards.sort((a,b) => {
+        const ra = (a.getAttribute('data-rank')||'').toUpperCase();
+        const rb = (b.getAttribute('data-rank')||'').toUpperCase();
+        const pa = (rankOrder.hasOwnProperty(ra) ? rankOrder[ra] : 2);
+        const pb = (rankOrder.hasOwnProperty(rb) ? rankOrder[rb] : 2);
+        return pa - pb;
+      });
+      // Re-append in sorted order (append moves existing nodes)
+      cards.forEach(c => grid.appendChild(c));
+    })();
+
+    // Set background images for determination panels and wire up S / S+ filter
+    (function(){
+      const checkbox = document.getElementById('filter-s');
+      const cards = Array.from(document.querySelectorAll('.card'));
+      checkbox.addEventListener('change', ()=>{
+        const onlyS = checkbox.checked;
+        cards.forEach(card=>{
+          const rank = (card.getAttribute('data-rank')||'').toUpperCase();
+          if(!onlyS) { card.style.display='block'; return; }
+          if(rank === 'S' || rank === 'S+') card.style.display='block'; else card.style.display='none';
+        });
+      });
+    })();
+
+    // Card-tap behavior: clone the card's determination panel into a right-side pane that fills half the page
+    (function(){
+      const detSide = document.createElement('div');
+      detSide.id = 'det-side';
+      detSide.style.position = 'fixed';
+      detSide.style.right = '0';
+      detSide.style.top = '72px';
+      detSide.style.width = '50%';
+      detSide.style.maxWidth = '800px';
+      detSide.style.height = '80vh';
+      detSide.style.padding = '12px';
+      detSide.style.boxSizing = 'border-box';
+      detSide.style.display = 'none';
+      detSide.style.zIndex = '1000';
+      detSide.style.overflow = 'auto';
+      detSide.style.background = 'transparent';
+      detSide.style.cursor = 'grab';
+      document.body.appendChild(detSide);
+
+      // Add a small grab handle to make dragging discoverable
+      const handle = document.createElement('div');
+      handle.id = 'det-handle';
+      handle.style.width = '36px';
+      handle.style.height = '6px';
+      handle.style.background = 'rgba(255,255,255,0.5)';
+      handle.style.borderRadius = '4px';
+      handle.style.margin = '6px auto 0 auto';
+      handle.style.cursor = 'grab';
+
+      let dragging = false;
+      let startX = 0, startY = 0;
+      let origLeft = 0, origTop = 0;
+
+      function startDrag(e){
+        dragging = true;
+        detSide.style.transition = 'none';
+        startX = e.clientX || (e.touches && e.touches[0].clientX);
+        startY = e.clientY || (e.touches && e.touches[0].clientY);
+        const rect = detSide.getBoundingClientRect();
+        // If right is set, compute left from right
+        origLeft = rect.left;
+        origTop = rect.top;
+        document.addEventListener('pointermove', onDrag);
+        document.addEventListener('pointerup', endDrag);
+        document.addEventListener('touchmove', onDrag, {passive:false});
+        document.addEventListener('touchend', endDrag);
+      }
+
+      function onDrag(e){
+        if(!dragging) return;
+        e.preventDefault();
+        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
+        const clientY = e.clientY || (e.touches && e.touches[0].clientY);
+        const dx = clientX - startX;
+        const dy = clientY - startY;
+        let left = origLeft + dx;
+        let top = origTop + dy;
+        // Keep inside window bounds
+        left = Math.max(8, Math.min(window.innerWidth - detSide.offsetWidth - 8, left));
+        top = Math.max(8, Math.min(window.innerHeight - detSide.offsetHeight - 8, top));
+        detSide.style.left = left + 'px';
+        detSide.style.top = top + 'px';
+        detSide.style.right = 'auto';
+      }
+
+      function endDrag(){
+        dragging = false;
+        detSide.style.transition = '';
+        document.removeEventListener('pointermove', onDrag);
+        document.removeEventListener('pointerup', endDrag);
+        document.removeEventListener('touchmove', onDrag);
+        document.removeEventListener('touchend', endDrag);
+      }
+
+      handle.addEventListener('pointerdown', startDrag);
+      handle.addEventListener('touchstart', startDrag, {passive:false});
+
+      function openDetermination(card){
+        // The card's determination div is the div directly after the 'Ability determination' heading
+        const detDiv = card.querySelector('h4 + div') || card.querySelector('div[style*="background-image"]');
+        if(!detDiv) return;
+
+        detSide.innerHTML = '';
+        detSide.appendChild(handle);
+
+        // Close button for the side pane
+        const closeBtn = document.createElement('button');
+        closeBtn.innerHTML = '×';
+        closeBtn.setAttribute('aria-label','Close');
+        closeBtn.style.cssText = 'position:absolute; right:10px; top:8px; border:none; background:transparent; font-size:1.4rem; cursor:pointer; color:#fff; z-index:1001;';
+        closeBtn.addEventListener('click', ()=> { detSide.style.display = 'none'; });
+        detSide.appendChild(closeBtn);
+
+        // Header: name + role
+        const nameEl = card.querySelector('h3');
+        const roleEl = card.querySelector('.role');
+        if(nameEl){
+          const hdr = document.createElement('div');
+          hdr.style.padding = '6px 8px';
+          hdr.style.color = '#fff';
+          const hname = document.createElement('h2');
+          hname.textContent = nameEl.textContent;
+          hname.style.margin = '0';
+          hname.style.fontSize = '1.25rem';
+          const prole = document.createElement('p');
+          prole.textContent = roleEl ? roleEl.textContent : '';
+          prole.style.margin = '6px 0 0 0';
+          prole.style.color = 'rgba(255,255,255,0.9)';
+          hdr.appendChild(hname);
+          hdr.appendChild(prole);
+          detSide.appendChild(hdr);
+        }
+
+        // Display the full picture as the panel background (contain) and overlay the text on top
+        // Attempt to extract the image URL from the detDiv's background-image
+        let bgUrl = '';
+        try{
+          const bgStyle = detDiv.style.backgroundImage || window.getComputedStyle(detDiv).backgroundImage || '';
+          const m = bgStyle.match(/url\((['"]?)(.*?)\1\)/);
+          if(m) bgUrl = m[2];
+        }catch(e){ bgUrl = ''; }
+
+        const bgContainer = document.createElement('div');
+        bgContainer.style.position = 'relative';
+        bgContainer.style.minHeight = '60vh';
+        bgContainer.style.borderRadius = '12px';
+        bgContainer.style.overflow = 'hidden';
+        bgContainer.style.display = 'flex';
+        bgContainer.style.alignItems = 'stretch';
+        bgContainer.style.justifyContent = 'center';
+        if(bgUrl){
+          bgContainer.style.backgroundImage = `url('${bgUrl}')`;
+          bgContainer.style.backgroundSize = 'contain';
+          bgContainer.style.backgroundRepeat = 'no-repeat';
+          bgContainer.style.backgroundPosition = 'center top';
+          bgContainer.style.backgroundColor = '#000';
+        }
+
+        // overlay for readable text (positioned at bottom of image)
+        const overlay = document.createElement('div');
+        overlay.style.position = 'absolute';
+        overlay.style.left = '0';
+        overlay.style.right = '0';
+        overlay.style.bottom = '0';
+        overlay.style.padding = '18px';
+        overlay.style.boxSizing = 'border-box';
+        overlay.style.background = 'linear-gradient(180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.6) 60%)';
+        overlay.style.color = '#fff';
+
+        // populate overlay with abilities and determination text
+        const detTextEl = card.querySelector('[data-i18n$="-det-text"]');
+        const detDescEl = card.querySelector('[data-i18n$="-det-desc"]');
+        const abilityEls = Array.from(card.querySelectorAll('.abilities li'));
+
+        if(detTextEl){
+          const p = document.createElement('p');
+          p.textContent = detTextEl.textContent;
+          p.style.margin = '0 0 8px 0';
+          p.style.fontWeight = '700';
+          overlay.appendChild(p);
+        }
+        if(detDescEl){
+          const pd = document.createElement('p');
+          pd.textContent = detDescEl.textContent;
+          pd.style.margin = '0 0 8px 0';
+          pd.style.opacity = '0.95';
+          overlay.appendChild(pd);
+        }
+
+        if(abilityEls && abilityEls.length){
+          const ul = document.createElement('ul');
+          ul.style.margin = '0 0 8px 18px';
+          abilityEls.forEach(li => {
+            const item = document.createElement('li');
+            item.textContent = li.textContent;
+            ul.appendChild(item);
+          });
+          overlay.appendChild(ul);
+        }
+
+        // history also on the picture (below abilities)
+        const histEl = card.querySelector('[data-i18n$="-hist"]');
+        if(histEl){
+          const histP = document.createElement('p');
+          histP.textContent = histEl.textContent;
+          histP.style.margin = '8px 0 0 0';
+          histP.style.opacity = '0.95';
+          overlay.appendChild(histP);
+        }
+
+        bgContainer.appendChild(overlay);
+        detSide.appendChild(bgContainer);
+
+        // Position detSide at the right edge by default
+        detSide.style.right = '16px';
+        detSide.style.left = 'auto';
+        detSide.style.top = (window.innerWidth < 720 ? 64 : 72) + 'px';
+
+        detSide.style.display = 'block';
+      }
+
+      // Open on card tap/click; also ensure clicking the determination background opens it
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', (e)=>{
+          e.stopPropagation();
+          openDetermination(card);
+        });
+        const detArea = card.querySelector('div[style*="background-image"]');
+        if(detArea){
+          detArea.style.cursor = 'pointer';
+          detArea.addEventListener('click', (e)=>{ e.stopPropagation(); openDetermination(card); });
+        }
+      });
+
+      // Close when clicking outside pane and outside cards
+      document.addEventListener('click', (e)=>{
+        if(detSide.style.display === 'none') return;
+        if(!detSide.contains(e.target) && !e.target.closest('.card')){
+          detSide.style.display = 'none';
+        }
+      });
+
+      // Responsive: on small screens use full width
+      function updateSize(){
+        if(window.innerWidth < 720){ detSide.style.width = '100%'; detSide.style.top = '64px'; detSide.style.height = 'calc(100% - 64px)'; detSide.style.left = '0'; detSide.style.right = '0'; }
+        else { if(!dragging){ detSide.style.width = '50%'; detSide.style.top = '72px'; detSide.style.height = '80vh'; detSide.style.right = '0'; detSide.style.left = 'auto'; } }
+      }
+      window.addEventListener('resize', updateSize);
+      updateSize();
+    })();
+
+    // Google Translate initialization
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,mn,es,fr,de,ja,zh-CN,ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+  </script>
+</body>
+</html>
