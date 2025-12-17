@@ -1,0 +1,157 @@
+
+.minii-hobby{
+   text-align: center;
+   background-color: rgb(70, 70, 105);
+   padding: 5px;
+}
+
+.contaner{
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 3px 3px 3px 30px;
+  border-radius: 20px;
+}
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(94, 90, 90);
+}
+ .naiz-boloy{
+  color: aqua;
+  background-color: black;
+  border-radius: 20px;
+ }
+
+ .minii3hobby{
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 3px 3px 3px 30px;
+  border-radius: 20px;
+ }
+
+ .jijigtemdeglel{
+  background-color: rgb(85, 160, 221);
+  margin: 20px;
+  padding: 3px 3px 3px 30px;
+  border-radius: 20px;
+ }
+ .bugs{
+  color: aquamarine;
+  text-align: center;
+
+ }
+
+  .navbar{
+   list-style: none;
+   display: flex;
+   justify-content:center ;
+   gap:25px;
+ }
+
+  /* Site header */
+  .site-header{
+    /* colorful header with character faces (placeholder images) */
+    color: #fff;
+    padding: 18px 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    background-image:
+      linear-gradient(135deg, rgba(255,120,120,0.18), rgba(120,120,255,0.18)),
+      url('https://via.placeholder.com/1200x260?text=Lucas'),
+      url('https://via.placeholder.com/1200x260?text=Isabel'),
+      url('https://via.placeholder.com/1200x260?text=Nishikava'),
+      url('https://via.placeholder.com/1200x260?text=Sohee');
+    background-size: cover, 14%, 14%, 14%, 14%;
+    background-position: center, left 6% top 30%, left 36% top 30%, right 36% top 30%, right 6% top 30%;
+    background-blend-mode: overlay, normal, normal, normal;
+  }
+  .site-title{
+    margin: 0 0 6px 0;
+    text-align: center;
+    font-size: 1.9rem;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+  }
+  .site-subtitle{ text-align:center;margin:6px 0 0 0;color:#fffccf;font-weight:600 }
+  .navbar{
+    padding: 0;
+    margin: 0 auto;
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  .navbar a:hover{
+    background: rgba(255,255,255,0.08);
+  }
+
+  /* Characters grid */
+  .character-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 18px;
+    margin: 20px 0;
+  }
+  .card{
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .card[data-rank="S+"]{ border-left:6px solid #ffcf33 }
+  .card[data-rank="S"]{ border-left:6px solid #7a4fff }
+  .card[data-rank="A"]{ border-left:6px solid #2aa7ff }
+  .avatar img{
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .card h3{margin:6px 0}
+  .role{font-style:italic;color:#444;margin-bottom:8px}
+  .abilities{margin:8px 0 12px 18px}
+
+@media (max-width:480px){
+  .site-title{font-size:1.2rem}
+  .contaner{padding:10px}
+}
+
+/* Language toggle buttons */
+#lang-en, #lang-mn {
+  transition: all 0.3s ease;
+}
+#lang-en:hover, #lang-mn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}  /* Determination background panels */
+  .determination{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+
+  /* Rank badge */
+  .rank-badge{
+    display:inline-block;
+    background: #ffcf33;
+    color:#000;
+    font-weight:700;
+    padding:4px 8px;
+    border-radius:10px;
+    font-size:0.8rem;
+    position:relative;
+    top:-6px;
+    left:6px;
+  }
+
+  /* Ensure cards display block by default */
+  .card{display:block}
